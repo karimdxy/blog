@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <body>
-    <main class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-3">
+    <main class="flex flex-col md:flex-row">
       <aside class="p-4 bg-gray-100 md:w-1/3 md:min-h-screen">
         <img
           src="/images/karim.webp"
@@ -27,7 +27,7 @@
           </li>
         </ul>
       </aside>
-      <div class="p-4 md:2/3">{{ content | safe }}</div>
+      <div class="p-4 md:w-2/3">{{ content | safe }}</div>
     </main>
   </body>
 </html>
