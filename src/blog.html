@@ -1,0 +1,15 @@
+---
+layout: base.html
+title: Blog
+---
+
+<div class="flex justify-center">
+  <ul class="space-y-4 text-2xl font-medium">
+    {%- for post in collections.post -%}
+    <li class="flex flex-col -space-y-2">
+      <span class="text-base text-gray-800">{{ post.date | prettyDate }}</span>
+      <a href="{{ post.url }}"> {{ post.data.title }} </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>

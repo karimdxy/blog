@@ -30,5 +30,10 @@
     "postcss-cli": "^7.1.2",
     "tailwindcss": "^1.8.10",
     "autoprefixer": "^9.8.6"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "markdown": "^0.5.0",
+    "markdown-it-footnote": "^3.0.2"
   }
 }

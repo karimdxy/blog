@@ -1,5 +1,9 @@
 @tailwind base;
 
+a {
+  @apply border-b-2 border-transparent hover:border-black;
+}
+
 @tailwind components;
 
 @tailwind utilities;

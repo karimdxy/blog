@@ -1,11 +1,15 @@
 module.exports = {
   purge: {
-    enabled: true,
-    content: ['./src/**/*.html']
+    layers: ["utilities"],
+    content: ["./src/**/*.html"]
   },
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true
+  }
+};
