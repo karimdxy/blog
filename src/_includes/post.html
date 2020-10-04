@@ -2,4 +2,14 @@
 layout: base.html
 ---
 
-<article class="mx-auto prose prose-lg">{{ content | safe }}</article>
+<article class="mx-auto prose prose-lg">
+  <h1>{{ title }}</h1>
+  <div class="flex space-x-3">
+    {%- for tag in tags -%}
+    <span class="px-2 py-1 text-white bg-blue-700 rounded-full"
+      >{{ tag | capitalize }}</span
+    >
+    {%- endfor -%}
+  </div>
+  {{ content | safe }}
+</article>

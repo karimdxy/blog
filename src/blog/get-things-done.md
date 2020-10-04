@@ -1,7 +1,6 @@
 ---
 title: How to (actually) get things done
-tags: post
-layout: post
+tags: productivity
 date: 2020-07-13
 ---
 

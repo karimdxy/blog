@@ -1,7 +1,6 @@
 ---
 title: How to start blogging
-layout: post
-tags: post
+tags: blogging
 date: 2020-05-12
 ---
 
