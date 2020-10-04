@@ -3,6 +3,7 @@ module.exports = function (config) {
   let markdownItFooter = require("markdown-it-footnote");
   let markdownLib = markdownIt().use(markdownItFooter);
 
+  config.addPassthroughCopy("./src/favicon.ico");
   config.addPassthroughCopy("./src/css/styles.css");
   config.addPassthroughCopy("./src/images");
 

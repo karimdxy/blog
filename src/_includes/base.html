@@ -3,19 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <title>{{ title | capitalize }}</title>
   </head>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <body>
-    <main class="flex space-x-3">
-      <aside class="w-1/3 min-h-screen p-4 bg-gray-100">
+    <main class="flex flex-col md:flex-row md:space-x-3">
+      <aside class="p-4 bg-gray-100 md:dw-1/3 md:min-h-screen">
+        <img
+          src="/images/karim.webp"
+          alt="Picture of Karim smiling"
+          class="w-48 h-48 mx-auto rounded-full"
+          loading="lazy"
+        />
         <h2 class="text-6xl font-black">Hello,</h2>
         <p class="text-xl">
           I'm Karim, a software developer from Tunisia. I like making things,
           writing and reading.
         </p>
       </aside>
-      <div class="p-4">{{ content | safe }}</div>
+      <div class="p-4 md:2/3">{{ content | safe }}</div>
     </main>
   </body>
 </html>
