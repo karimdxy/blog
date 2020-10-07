@@ -4,7 +4,42 @@ module.exports = {
     content: ["./src/**/*.html"]
   },
   theme: {
-    extend: {}
+    extend: {
+      typography: theme => ({
+        default: {
+          css: {
+            color: theme("colors.gray.100"),
+            h1: {
+              color: theme("colors.gray.100")
+            },
+            h2: {
+              color: theme("colors.gray.100")
+            },
+            h3: {
+              color: theme("colors.gray.100")
+            },
+            h4: {
+              color: theme("colors.gray.100")
+            },
+            h5: {
+              color: theme("colors.gray.100")
+            },
+            h6: {
+              color: theme("colors.gray.100")
+            },
+            strong: {
+              color: theme("colors.gray.100")
+            },
+            a: {
+              color: theme("colors.gray.100")
+            },
+            blockquote: {
+              color: theme("colors.gray.400")
+            }
+          }
+        }
+      })
+    }
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],

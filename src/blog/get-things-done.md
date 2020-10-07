@@ -2,6 +2,7 @@
 title: How to (actually) get things done
 tags: productivity
 date: 2020-07-13
+tagline: It's not as mystic as they make it seem ;)
 ---
 
 Whenever I have a task to do, I'm usually well-equipped to deal with it. I know which mental model I'm going to rely on, the viable tips and tricks to not procrastinate. Yet, sometimes I just don't. I get stuck on the execution part of the process (which is a pretty big deal).

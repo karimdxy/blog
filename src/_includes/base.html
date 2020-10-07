@@ -8,10 +8,28 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <body class="max-w-2xl p-4 mx-auto">
-    <nav class="flex justify-start">
+    <nav class="mb-8 space-y-8">
       <h1 class="text-3xl font-extrabold">
         <a href="/">Karim</a>
       </h1>
+      <div class="flex items-center space-x-3">
+        <img
+          src="/images/karim.webp"
+          alt="A selfie with me smiling"
+          class="w-16 h-16 rounded-full"
+        />
+        <div class="space-y-1">
+          <p>Code, entrepreneurship and everything in between.</p>
+          <div class="space-x-3">
+            <a href="https://github.com/KarimDaghari" class="font-medium"
+              >Github</a
+            >
+            <a href="https://linkedin.com/in/karim-daghari" class="font-medium"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </div>
     </nav>
     <main>{{ content | safe }}</main>
   </body>

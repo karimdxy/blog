@@ -9,7 +9,7 @@ module.exports = function (config) {
 
   config.addFilter("prettyDate", function (value) {
     const data = new Date(value);
-    return data.toLocaleDateString();
+    return data.toLocaleDateString(undefined, {});
   });
 
   config.addCollection("posts", function (collectionApi) {
