@@ -1,12 +1,5 @@
 @tailwind base;
 
-a {
-  @apply border-b-2 border-transparent;
-}
-a:hover {
-  @apply border-black;
-}
-
 @tailwind components;
 
 @tailwind utilities;

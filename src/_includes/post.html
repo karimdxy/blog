@@ -2,16 +2,7 @@
 layout: base.html
 ---
 
-<article class="prose prose-xl max-w-none md:prose-lg">
+<article class="my-6 prose prose-lg max-w-none md:prose-xl">
   <h1>{{ title }}</h1>
-  <div class="flex space-x-3">
-    {%- for tag in tags -%}
-    <a href="/tags/{{tag}}" class="border-none hover:border-transparent">
-      <span class="px-4 py-1 text-white bg-gray-800 rounded-full">
-        {{ tag | capitalize }}
-      </span>
-    </a>
-    {%- endfor -%}
-  </div>
   {{ content | safe }}
 </article>
