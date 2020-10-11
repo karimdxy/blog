@@ -4,5 +4,11 @@
   "url": "https://karimdaghari.netlify.app",
   "author": "Karim Daghari",
   "twitter": "ikarimdaghari",
-  "image": "karim.webp"
+  "image": "images/karim.webp",
+  "options": {
+    "titleStyle": "minimalistic",
+    "titleDivider": "|",
+    "imageWithBaseUrl": true,
+    "twitterCardType": "summary"
+  }
 }
