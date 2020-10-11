@@ -71,6 +71,10 @@ This. It was a hard lesson. It doesn't matter how noble your mission is. It does
 
 **So, how do you build an audience?** I admit that I have a few ideas, but they're too crude to expose right now. I'll share them when they're fully baked!
 
+## One last thing
+
+Eggnite is now open source:
+
 [^1]: though not limited to the sited skills. I probably skipped a few.
 [^2]: <https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/>
 [^3]: In startup slang this is called a **pivot**.
