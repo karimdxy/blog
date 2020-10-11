@@ -73,7 +73,7 @@ This. It was a hard lesson. It doesn't matter how noble your mission is. It does
 
 ## One last thing
 
-Eggnite is now open source:
+Eggnite is now fully open source: <https://github.com/eggnite-africa>
 
 [^1]: though not limited to the sited skills. I probably skipped a few.
 [^2]: <https://frontendmasters.com/teachers/kyle-simpson/code-is-for-humans/>
