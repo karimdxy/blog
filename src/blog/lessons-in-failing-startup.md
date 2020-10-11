@@ -25,7 +25,7 @@ If you get one takeaway, let this be it. First of all, building a product and bu
 
 > Q: What ? What has got empathy to do with anything?
 >
-> A: How are you going to build a product that resonates with your audience? Tell me how, and I'll find a way to link it back to empathy :)
+> A: How are you going to build a product that resonates with your audience? Tell me how, and I'll find a way to link it back to empathy
 
 **Building a business** requires the following skills[^1]: marketing, forecasting and sales. And if like me you have natural tendencies towards technical subjects, you probably suck big time at either of those three. I'm not saying you can't learn them, just that they don't come naturally. Which is completely normal, since I found that these two aspects (product and business) require different mindsets.
 
