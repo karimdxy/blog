@@ -10,12 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.2",
+    "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
     "postcss-cli": "^7.1.2",
-    "tailwindcss": "^1.8.12",
-    "autoprefixer": "^9.8.6"
+    "tailwindcss": "^1.8.12"
   },
   "dependencies": {
+    "@gerhobbelt/markdown-it-sup": "^1.0.1-4",
     "@tailwindcss/typography": "^0.2.0",
     "markdown": "^0.5.0",
     "markdown-it-footnote": "^3.0.2"

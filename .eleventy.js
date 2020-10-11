@@ -1,10 +1,14 @@
+const markdownIt = require("markdown-it");
+const markdownItFooter = require("markdown-it-footnote");
+const markdownItSup = require("@gerhobbelt/markdown-it-sup");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 module.exports = function (config) {
-  let markdownIt = require("markdown-it");
-  let markdownItFooter = require("markdown-it-footnote");
-  let markdownLib = markdownIt().use(markdownItFooter);
+  const markdownLib = markdownIt().use(markdownItFooter).use(markdownItSup);
 
   config.addPassthroughCopy("./src/favicon.ico");
   config.addPassthroughCopy("./src/css/styles.css");
+  config.addPassthroughCopy("./src/css/prism.css");
   config.addPassthroughCopy("./src/images");
 
   config.addFilter("prettyDate", function (value) {
@@ -12,10 +16,11 @@ module.exports = function (config) {
     return data.toLocaleDateString(undefined, {});
   });
 
-  config.addCollection("posts", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("./src/blog/*.md");
-  });
+  config.addCollection("posts", collectionApi =>
+    collectionApi.getFilteredByGlob("./src/blog/*.md")
+  );
 
+  config.addPlugin(syntaxHighlight);
   config.setLibrary("md", markdownLib);
   config.setDataDeepMerge(true);
 

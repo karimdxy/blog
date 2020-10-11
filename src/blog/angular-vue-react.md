@@ -33,7 +33,7 @@ Out of the three, I would say Angular is the smallest (in relative numbers) whic
 
 ### The library
 
-Equipped with my new learnings on structure and (debatable) scalable app architecture skills, I was looking for an escape hatch. This is where Vue shines. First there's the frenchy, chic name. Then there's the light documentation (I picked it up in a day). Lastly, and most importantly, there's the ease of use and simplicity. Everything just made sense. It just works<sup>TM</sup>.
+Equipped with my new learnings on structure and (debatable) scalable app architecture skills, I was looking for an escape hatch. This is where Vue shines. First there's the frenchy, chic name. Then there's the light documentation (I picked it up in a day). Lastly, and most importantly, there's the ease of use and simplicity. Everything just made sense. It just works^TM^.
 
 The issue with simplicity however is that you're ceding control over some things to the library and you might not necessarily want to do that.
 
