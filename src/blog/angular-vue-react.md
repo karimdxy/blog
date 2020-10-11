@@ -1,6 +1,6 @@
 ---
 title: Angular, Vue and React
-tagline: My experience using all three frameworks
+excerpt: My experience using all three frameworks
 ---
 
 ## Angular

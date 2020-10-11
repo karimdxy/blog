@@ -2,6 +2,7 @@ const markdownIt = require("markdown-it");
 const markdownItFooter = require("markdown-it-footnote");
 const markdownItSup = require("@gerhobbelt/markdown-it-sup");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginSEO = require("eleventy-plugin-seo");
 
 module.exports = function (config) {
   const markdownLib = markdownIt().use(markdownItFooter).use(markdownItSup);
@@ -24,6 +25,7 @@ module.exports = function (config) {
   );
 
   config.addPlugin(syntaxHighlight);
+  config.addPlugin(pluginSEO, require("./src/_data/seo.json"));
   config.setLibrary("md", markdownLib);
   config.setDataDeepMerge(true);
 

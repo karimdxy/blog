@@ -2,7 +2,7 @@
 title: How to start blogging
 tags: blogging
 date: 2020-05-12
-tagline: "TL;DR: by starting"
+excerpt: "TL;DR: by starting"
 ---
 
 ## The How

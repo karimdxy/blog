@@ -1,6 +1,6 @@
 ---
 title: Lessons I learned from failing a startup
-tagline: I've been thinking long and hard about this one.
+excerpt: I've been thinking long and hard about this one.
 ---
 
 _My use of the term **startup** is pretty loose here. I mean by it: a product that could become a business._
