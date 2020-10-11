@@ -16,8 +16,11 @@ module.exports = function (config) {
     return data.toLocaleDateString(undefined, {});
   });
 
+  // Fetch all posts located in /blog dir and sort them by most recent
   config.addCollection("posts", collectionApi =>
-    collectionApi.getFilteredByGlob("./src/blog/*.md")
+    collectionApi
+      .getFilteredByGlob("./src/blog/*.md")
+      .sort((p1, p2) => p2.date - p1.date)
   );
 
   config.addPlugin(syntaxHighlight);
