@@ -57,7 +57,7 @@ Whatever arbitrary value you have in mind, it's too low. In my case it was to co
 
 **Who to sell it to?**
 
-Are you asking me about **your** target audience? If that's the case, I don't know.
+I don't know.
 
 What I can answer however is: **Who _not_ to sell it to**. F.F.
 
@@ -73,7 +73,7 @@ Having an audience means you get quasi-instantaneous users for your product just
 
 Otherwise why would you believe a single word of what I said?
 
-**So, how do you build an audience?** I admit that I have a few ideas, but they're too crude to expose right now. I'll share them when they're fully baked!
+**So, how do you build an audience?** I admit that I have a few ideas, but they're too crude to expose right now. I'll share them when they're fully baked! So be sure to follow me.
 
 ## One last thing
 
