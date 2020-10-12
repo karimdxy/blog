@@ -13,7 +13,7 @@ The problem however is that with structure comes both unneeded complexity (unwar
 
 You'll get locked into the angular way of doing things and by extension that of Google, which might not always be a good thing[^1]. How so? You'll be thinking about how to make things scalable from the get-go, which convention to follow, which in turn will square you into premature optimizations. I'm not saying that you won't be doing that somewhere down the line, I'm only saying that with Angular you'll be sort of forced to do them from the get-go.
 
-### The dev experience
+### The DX
 
 _Note: I personally used to use sublime/atom but have switched to VS Code when it first landed._
 
@@ -35,23 +35,50 @@ Out of the three, I would say Angular is the smallest (in relative numbers) whic
 
 Equipped with my new learnings on structure and (debatable) scalable app architecture skills, I was looking for an escape hatch. This is where Vue shines. First there's the frenchy, chic name. Then there's the light documentation (I picked it up in a day). Lastly, and most importantly, there's the ease of use and simplicity. Everything just made sense. It just works^TM^.
 
-The issue with simplicity however is that you're ceding control over some things to the library and you might not necessarily want to do that.
+The issue with simplicity however is two folds: (1) it's largely governed by "magic", which means (2) you're ceding control over some things to the library and you might not necessarily want to do that.
 
-### The dev experience
+### The DX
 
-It's meh at best. And yes, I did try everything.
+It's meh at best.
 
 ### The ecosystem
 
-Although not the biggest, it a pretty neat one! The packages that you need in 80% of the time are there and they're pretty high quality[^2] too. For the remaining 20% I would argue that it's okay to get your hands dirty sometimes (although if you get edge cases too often maybe you should reconsider).
+Although not the biggest, it's a pretty neat one. The packages that you need in 80% of the time are there and they're pretty high quality[^2] too. For the remaining 20% I would argue that it's okay to get your hands dirty sometimes (although if you get edge cases too often maybe some reconsideration is needed?).
 
 ## React
 
-The best. Relatively speaking that is. It ticks all the boxes for me.
+_At first I resisted it for various reasons (one of them: it being developed by the big F). Then I decided to give it 5 minutes[^3]. Then I took the plunge..._
 
-## Addendum: Svelte
+### The library
 
-Interesting.
+Having seen (and used) both extremes (_structure_ (and by extension, complexity) on one hand and _simplicity_ on the other) it seemed react didn't have that much to offer. Boy was I wrong. First of all, regardless of the tool you're using, you'll learn to think in that tool (in other words: you add a new mental model to your mental toolbox). Here's the thing though: the mental model you use acts as the lense through which you perceive code. This is particularly important when the code is meant to represent UI. React, for me, hits the sweet spot: It's not rigid as to impose some sort of structure on you, yet it's not simplistic as to abstract too much. Therefore, if I were to describe React in one word it'd be: flexibility.
+
+### The DX
+
+It's on par with Angular. So... great!
+
+### The ecosystem
+
+![YUUUUGE](https://media.giphy.com/media/fSYmbgG5Ug8S11K0FU/giphy-downsized.gif)
+
+Basically, as far as I can tell there's only two reasons you'd want to write your own solution:
+
+1. It's a requirement (maybe due to fit your performance budget)
+
+2. You need something tailor-made
+
+## Which one is the best
+
+> Use the right tool for the job.
+
+For me:
+
+Is it going to be simple? --> Vue.
+
+I consider something to be simple if it basically acts as a JSON viewer/editor.
+
+Everything else --> React.
 
 [^1]: [You are not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
 [^2]: Meaning: battle-tested, include good test suits, well documented are used in the wild
+[^3]: This post from SvN is a pretty good read: <https://signalvnoise.com/posts/3124-give-it-five-minutes>
