@@ -63,7 +63,7 @@ It's on par with Angular. So... great!
 
 Basically, as far as I can tell there's only two reasons you'd want to write your own solution:
 
-1. It's a requirement (maybe due to fit your performance budget)
+1. It's a requirement (maybe to fit your performance budget)
 
 2. You need something tailor-made
 
