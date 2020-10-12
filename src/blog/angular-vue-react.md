@@ -80,5 +80,5 @@ I consider something to be simple if it basically acts as a JSON viewer/editor.
 Everything else --> React.
 
 [^1]: [You are not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
-[^2]: Meaning: battle-tested, include good test suits, well documented are used in the wild
+[^2]: Meaning: battle-tested, include good test suits, well documented and are used in the wild
 [^3]: This post from SvN is a pretty good read: <https://signalvnoise.com/posts/3124-give-it-five-minutes>
