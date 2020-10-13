@@ -35,7 +35,7 @@ And now, with the secret plan:
 
 > settle on one resource and start **producing**
 
-That's it. It's **that** simple[^6].
+That's it. It's _that_ simple[^6].
 
 [^1]: Not saying you won't learn anything in the absolute sense of the word, but whatever it is you learn, you won't really be able to put it in practice -- you'll be stuck in the theory.
 [^2]: You could substitute it with whatever you want: JS/TS, Go, Rust, Python, Scala, Java, etc...
