@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     layers: ["utilities"],
-    content: ["./src/**/*.html"]
+    content: ["./src/**/*.html", "./src/**/*.liquid"]
   },
   theme: {
     extend: {
