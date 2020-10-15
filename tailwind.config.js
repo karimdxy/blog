@@ -48,6 +48,8 @@ module.exports = {
   plugins: [require("@tailwindcss/typography")],
   future: {
     removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true
+    purgeLayersByDefault: true,
+    defaultLineHeights: true,
+    standardFontWeights: true
   }
 };
