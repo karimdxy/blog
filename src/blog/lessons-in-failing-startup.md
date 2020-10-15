@@ -45,7 +45,7 @@ In my case, it would be a newsletter. But I built a whole platform. 🤷‍♂�
 
 Truth is, when you have an idea you're building it on top of some hypothesis of yours. Thing is, you're _almost_ never certain of its correctness so the MVP will give you the feedback you're looking for: Either it's correct, it's not or it needs some course correction[^4].
 
-If anything, the actual value of MVP is it saves you time. If you don't care about that, then please give me some of the extra time you have! I'm afraid 24 hours in a day can't cut it for me.
+If anything, the actual value of the MVP is: it saves you time. If you don't care about that, then please give me some of the extra time you have! I'm afraid 24 hours in a day can't cut it for me.
 
 ### Sell it before you make it
 
