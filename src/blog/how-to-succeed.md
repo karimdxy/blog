@@ -17,4 +17,4 @@ I keep going back to this short story/analogy every now and then.
 >
 > So, yes, it's insane to try to follow all the advice on the Internet simultaneously. But that doesn't mean it's insane to listen to 37signals advice, or Godin's advice, or some other company's advice. You just have to figure out which part of the animal kingdom you're in, and seek out the best practices which apply to creatures like you. If you want to be a stalker, you could do worse than to ask the tiger for some advice.
 
-[^1]: The ants are gonna win. Hölldobler and Wilson told me so.
+[^1]: [The ants](https://www.wikiwand.com/en/The_Ants) are gonna win. Hölldobler and Wilson told me so.
