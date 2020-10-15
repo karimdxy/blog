@@ -7,10 +7,12 @@ const pluginSEO = require("eleventy-plugin-seo");
 module.exports = function (config) {
   const markdownLib = markdownIt().use(markdownItFooter).use(markdownItSup);
 
-  config.addPassthroughCopy("./src/favicon.ico");
-  config.addPassthroughCopy("./src/css/styles.css");
-  config.addPassthroughCopy("./src/css/prism.css");
-  config.addPassthroughCopy("./src/images");
+  config.addPassthroughCopy([
+    "./src/favicon.ico",
+    "./src/images",
+    "./src/css/styles.css",
+    "./src/css/prism.css"
+  ]);
 
   config.addFilter("prettyDate", function (value) {
     const data = new Date(value);
