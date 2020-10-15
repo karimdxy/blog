@@ -1,6 +1,6 @@
 ---
 title: How to succeed
-excerpt: I finally found the key to success!
+excerpt: Here resides the key to success :)
 ---
 
 Source: <https://news.ycombinator.com/item?id=469940>

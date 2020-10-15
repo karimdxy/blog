@@ -1,6 +1,6 @@
 ---
 title: How to escape tutorial hell
-excerpt: A no non-sense, no BS guide
+excerpt: A no non-sense, no BS guide.
 ---
 
 ## What is tutorial hell
