@@ -1,5 +1,5 @@
 ---
-title: How to learn Math
+title: "How to Learn Math: For Students"
 excerpt: I took this course by Stanford (through edX)
 ---
 
