@@ -1,0 +1,16 @@
+---
+layout: base.html
+title: Blog
+ogtype: website
+---
+
+<ul class="space-y-10">
+  {%- for post in collections.posts -%}
+  <li class="flex flex-col">
+    <a href="{{ post.url }}" class="text-4xl font-semibold">
+      {{ post.data.title }}
+    </a>
+    <span>{{ post.data.excerpt }}</span>
+  </li>
+  {%- endfor -%}
+</ul>

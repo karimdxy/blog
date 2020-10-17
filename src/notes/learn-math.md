@@ -1,5 +1,6 @@
 ---
 title: How to learn Math
+excerpt: I took this course by Stanford (through edX)
 ---
 
 course: [How to Learn Math: For Students](https://courses.edx.org/courses/course-v1:StanfordOnline+GSE-YEDUC115-S+1T2020/course/)

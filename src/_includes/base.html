@@ -9,7 +9,8 @@
     {% seo %}
   </head>
 
-  <body class="max-w-3xl p-4 mx-auto">
-    <main>{{ content | safe }}</main>
+  <body class="max-w-3xl p-8 mx-auto">
+    {% include navbar %}
+    <main class="my-4">{{ content | safe }}</main>
   </body>
 </html>
