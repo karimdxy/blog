@@ -1,14 +1,23 @@
 ---
 layout: base.html
-title: Home
+title: Karim Daghari
 ogtype: website
 ---
 
-<div>
-  <p class="text-4xl font-black leading-normal">Hey there 👋🏻</p>
-  <p class="text-lg max-w-none">
-    I'm Karim. A software developer, a student and a maker. Above anything,
-    learning and experimenting is what I enjoy the most. I'm passionate about
-    lots of subjects, ranging from math to philosophy and history.
-  </p>
+<div class="space-y-6">
+  <div>
+    <p class="text-4xl font-black leading-normal">Hey there 👋🏻</p>
+    <p class="text-lg max-w-none">
+      I'm Karim. A software developer, a student and a maker. Above anything,
+      learning and introspecting are what I enjoy the most. I'm passionate about
+      lots of subjects, ranging from math to philosophy and history.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 gap-y-4 md:grid-cols-2 md:gap-x-6 md:gap-y-0">
+    {% include card, {title: "blog", description:
+    descriptions.blog_description_short , url: "/blog"} %} {% include card,
+    {title: "notes", description: descriptions.notes_description_short, url:
+    "/notes"} %}
+  </div>
 </div>
