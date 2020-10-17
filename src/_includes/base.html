@@ -9,8 +9,9 @@
     {% seo %}
   </head>
 
-  <body class="max-w-3xl p-6 mx-auto md:p-8">
+  <body class="flex flex-col justify-between max-w-3xl p-6 mx-auto md:p-8">
     {% include navbar %}
     <main class="my-6 md:my-8">{{ content | safe }}</main>
+    {% include footer %}
   </body>
 </html>
