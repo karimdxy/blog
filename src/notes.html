@@ -1,16 +1,7 @@
 ---
-layout: base.html
+layout: front.html
 title: Notes
 ogtype: website
+key: notes_long
+collection_key: notes
 ---
-
-<ul class="space-y-10">
-  {%- for note in collections.notes -%}
-  <li class="flex flex-col">
-    <a href="{{ note.url }}" class="text-4xl font-semibold">
-      {{ note.data.title }}
-    </a>
-    <span>{{ note.data.excerpt }}</span>
-  </li>
-  {%- endfor -%}
-</ul>
