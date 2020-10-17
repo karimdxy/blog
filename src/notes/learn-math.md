@@ -47,4 +47,4 @@ _Reasoning: why and how you got [that] result._
 
 ## Lesson 6: Math in life
 
-_There's nothing of substance here. It's mostly an appetizer to ._
+_There's nothing of substance here. It's basically an appetizer._
