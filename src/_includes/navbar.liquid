@@ -3,11 +3,13 @@
   <ul
     class="flex space-x-3 text-lg font-medium leading-normal md:space-x-4 md:text-xl"
   >
+    {%- assign links = "blog,notes,projects" | split: ',' -%} {%- for link in
+    links -%}
     <li>
-      <a href="/blog" class="hover:underline hover:font-bold"> Blog </a>
+      <a href="/{{ link }}" class="hover:underline hover:font-bold">
+        {{ link | capitalize }}
+      </a>
     </li>
-    <li>
-      <a href="/notes" class="hover:underline hover:font-bold"> Notes </a>
-    </li>
+    {%- endfor -%}
   </ul>
 </nav>
