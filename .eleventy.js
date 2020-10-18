@@ -34,13 +34,6 @@ module.exports = function (config) {
       .sort((p1, p2) => p2.date - p1.date)
   );
 
-  // Fetch all notes location in /projects dir and sort them alphabetically
-  config.addCollection("projects", collectionApi =>
-    collectionApi
-      .getFilteredByGlob("./src/projects/*.md")
-      .sort((p1, p2) => p2.name - p1.name)
-  );
-
   // Plugins
   config.addPlugin(syntaxHighlight);
   config.addPlugin(pluginSEO, require("./src/_data/seo.json"));
