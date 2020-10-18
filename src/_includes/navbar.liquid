@@ -1,7 +1,9 @@
 <nav class="flex items-baseline justify-between">
-  {% include title %}
+  <h1 class="text-lg font-extrabold leading-normal md:text-3xl">
+    <a href="/">Karim Daghari</a>
+  </h1>
   <ul
-    class="flex space-x-3 text-lg font-medium leading-normal md:space-x-4 md:text-xl"
+    class="flex space-x-2 text-lg font-medium leading-normal md:space-x-4 md:text-xl"
   >
     {%- assign links = "blog,notes,projects" | split: ',' -%} {%- for link in
     links -%}
