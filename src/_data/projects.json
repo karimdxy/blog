@@ -4,7 +4,15 @@
       "name": "Eggnite",
       "description": "A ProductHunt-inspired platform, geared towards African makers.",
       "preview_url": "https://eggnite.xyz",
-      "url": "https://github.com/eggnite-ignite/"
+      "url": "https://github.com/eggnite-ignite/",
+      "built_with": ["Vue", "NestJS", "TypeScript", "PostgreSQL"]
+    },
+    {
+      "name": "This blog",
+      "description": "A blog is a... blog",
+      "preview_url": "/",
+      "url": "https://github.com/KarimDaghari/blog",
+      "built_with": ["11ty", "JavaScript"]
     }
   ]
 }
