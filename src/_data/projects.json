@@ -11,7 +11,8 @@
         "NestJS",
         "TypeScript",
         "PostgreSQL",
-        "Material UI"
+        "Material UI",
+        "AWS S3"
       ]
     },
     {
