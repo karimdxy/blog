@@ -10,7 +10,7 @@
     <meta
       name="image"
       property="og:image"
-      content="{{ seo.url | append: '/images/logo.webp' }}"
+      content="{{ seo.url | append: seo.image | replace: 'webp', 'jpg' }}"
     />
   </head>
 
