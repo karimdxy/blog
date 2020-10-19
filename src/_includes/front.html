@@ -14,11 +14,11 @@ title: title
 {{ content | safe }} {%- if collection_key -%}
 <ul class="space-y-10">
   {%- for s in collections[collection_key] -%}
-  <li class="flex flex-col">
+  <li>
+    <p class="font-semibold">{{ s.date | prettyDate }}</p>
     <a href="{{ s.url }}" class="text-4xl font-semibold">
       {{ s.data.title }}
     </a>
-    <span>{{ s.data.excerpt }}</span>
   </li>
   {%- endfor -%}
 </ul>

@@ -17,7 +17,15 @@ module.exports = function (config) {
   // Filters
   config.addFilter("prettyDate", function (value) {
     const data = new Date(value);
-    return data.toLocaleDateString(undefined, {});
+    /**
+     * @type Intl.DateTimeFormatOptions
+     */
+    const options = {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    };
+    return data.toLocaleDateString("en-US", options);
   });
 
   // Fetch all posts located in /blog dir and sort them by most recent
