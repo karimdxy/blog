@@ -1,9 +1,17 @@
-<nav
-  class="flex flex-col items-center space-y-1 md:space-y-0 md:items-baseline md:justify-between md:flex-row"
->
-  <h1 class="text-lg font-extrabold leading-normal md:text-3xl">
-    <a href="/">Karim Daghari</a>
-  </h1>
+<nav class="flex items-center md:justify-between">
+  <a href="/" class="flex items-center">
+    <img
+      src="/images/logo.webp"
+      alt="Logo"
+      loading="lazy"
+      class="w-16 md:pt-1"
+    />
+    <h1
+      class="invisible text-lg font-extrabold leading-normal md:text-3xl md:visible"
+    >
+      Karim Daghari
+    </h1>
+  </a>
   <ul class="flex space-x-4 text-lg font-medium leading-normal md:text-xl">
     {%- assign links = "blog,notes,projects" | split: ',' | sort -%} {%- for
     link in links -%}
