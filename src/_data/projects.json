@@ -5,7 +5,14 @@
       "description": "A ProductHunt-inspired platform, geared towards African makers.",
       "preview_url": "https://eggnite.xyz",
       "url": "https://github.com/eggnite-africa",
-      "built_with": ["Vue", "NestJS", "TypeScript", "PostgreSQL"]
+      "built_with": [
+        "Vue/Nuxt",
+        "Vuex",
+        "NestJS",
+        "TypeScript",
+        "PostgreSQL",
+        "Material UI"
+      ]
     },
     {
       "name": "this blog",
