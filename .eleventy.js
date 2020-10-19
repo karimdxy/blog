@@ -47,7 +47,12 @@ module.exports = function (config) {
   config.addPlugin(pluginSEO, require("./src/_data/seo.json"));
 
   // Library
-  const markdownLib = markdownIt().use(markdownItFooter).use(markdownItSup);
+  const markdownLib = markdownIt({
+    html: true,
+    linkify: true
+  })
+    .use(markdownItFooter)
+    .use(markdownItSup);
   config.setLibrary("md", markdownLib);
 
   return {

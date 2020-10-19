@@ -7,7 +7,7 @@ _My use of the term **startup** is pretty loose here. I mean by it: a product th
 
 ## The product in question
 
-![Eggnite Logo](https://eggnite.xyz/Logo.png)
+<img src="https://eggnite.xyz/Logo.png" width="200" alt="Eggnite logo" />
 
 **Eggnite**. The name is a mix between "Egg" and "Ignite", the reasoning behind it was that it would be **the** launching platform for ideas.
 
