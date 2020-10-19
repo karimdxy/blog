@@ -1,7 +1,11 @@
 @tailwind base;
 
-article > img {
+figure > img {
   @apply mx-auto;
+}
+
+figure > figcaption {
+  @apply text-center;
 }
 
 @tailwind components;

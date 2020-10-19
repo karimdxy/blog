@@ -7,9 +7,12 @@ _My use of the term **startup** is pretty loose here. I mean by it: a product th
 
 ## The product in question
 
+<figure>
 <img src="https://eggnite.xyz/Logo.png" width="200" alt="Eggnite logo" />
+<figcaption>Eggnite</figcaption>
+</figure>
 
-**Eggnite**: The name is a mix between "Egg" and "Ignite", the reasoning behind it was that it would be **the** launching platform for ideas.
+The name is a mix between "Egg" and "Ignite", the reasoning behind it was that it would be **the** launching platform for ideas.
 
 The vision behind it was to help foster an African community of indie makers -- it's already hard as it is, a community is something we deeply need. But truth is, it doesn't matter how noble the vision is...
 
