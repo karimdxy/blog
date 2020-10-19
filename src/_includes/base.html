@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     {% seo %}
-    <!-- For LinkedIn: -->
-    <meta name="image" property="og:image" content="/images/logo.webp" />
+    <meta
+      name="image"
+      property="og:image"
+      content="{{ page.url | split: '/' | first | append: '/images/logo.webp' }}"
+    />
   </head>
 
   <body class="max-w-3xl p-4 mx-auto mb-4">
