@@ -5,6 +5,10 @@ body {
   color: #fff;
 }
 
+article > img {
+  @apply mx-auto;
+}
+
 @tailwind components;
 
 @tailwind utilities;
