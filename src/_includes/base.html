@@ -2,11 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/prism.css" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    {% seo %}
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="/css/prism.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    {% seo %} {% if article_meta %}
+    <meta property="article:author" content="{{ seo.author }}" />
+    {%- for tag in article_meta.tags -%}
+    <meta property="article:tag" content="{{ tag }}" />
+    {%- endfor -%}
+    <meta
+      property="article:published_time"
+      content="{{ article_meta.published_time }}"
+    />
+    {% endif %}
   </head>
 
   <body class="max-w-3xl p-4 mx-auto mb-4">

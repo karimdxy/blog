@@ -1,5 +1,9 @@
 ---
 layout: base.html
+eleventyComputed:
+  article_meta:
+    tags: "{{ tags | split: ' ' | join: ' ' }}"
+    published_time: "{{ page.date | standardDate | split: '/' | reverse | join: '-' }}"
 ---
 
 <article class="prose prose-lg max-w-none md:prose-xl">

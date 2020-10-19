@@ -1,5 +1,6 @@
 ---
 title: Lessons I learned from failing a startup
+tags: ["startup"]
 excerpt: I've been thinking long and hard about this one.
 ---
 
