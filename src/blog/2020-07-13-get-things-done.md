@@ -1,7 +1,6 @@
 ---
 title: How to (actually) get things done
 tags: productivity
-date: 2020-07-13
 excerpt: It's not as mystic as they make it seem ;)
 ---
 

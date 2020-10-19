@@ -1,7 +1,6 @@
 ---
 title: How to start blogging
 tags: blogging
-date: 2020-05-12
 excerpt: "TL;DR: by starting."
 ---
 
