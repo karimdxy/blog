@@ -17,7 +17,7 @@
     },
     {
       "name": "this blog",
-      "description": "A blog is a... blog",
+      "description": "A blog is a... blog.",
       "preview_url": "/",
       "url": "https://github.com/KarimDaghari/blog",
       "built_with": ["11ty", "JavaScript"]
