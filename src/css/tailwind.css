@@ -1,10 +1,5 @@
 @tailwind base;
 
-body {
-  background-color: #121212;
-  color: #fff;
-}
-
 article > img {
   @apply mx-auto;
 }
