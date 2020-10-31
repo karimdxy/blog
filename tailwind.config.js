@@ -28,6 +28,15 @@ module.exports = {
           },
           h6: {
             color: "#fff"
+          },
+          strong: {
+            color: "#fff"
+          },
+          em: {
+            color: "#fff"
+          },
+          blockquote: {
+            color: "#fff"
           }
         }
       }

@@ -45,7 +45,6 @@ module.exports = function (config) {
       .getAll()
       .sort((p1, p2) => p2.date - p1.date)
       .filter(({ data }) => {
-        console.log({ data });
         return "featured" in data;
       })
   );
