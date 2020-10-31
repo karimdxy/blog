@@ -39,13 +39,6 @@ module.exports = function (config) {
       .sort((p1, p2) => p2.date - p1.date)
   );
 
-  // Fetch all notes location in /notes dir and sort them by most recent
-  config.addCollection("notes", collectionApi =>
-    collectionApi
-      .getFilteredByGlob("./src/notes/*.md")
-      .sort((p1, p2) => p2.date - p1.date)
-  );
-
   // Plugins
   config.addPlugin(syntaxHighlight);
   config.addPlugin(pluginSEO, require("./src/_data/seo.json"));

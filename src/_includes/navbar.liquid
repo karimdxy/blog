@@ -1,25 +1,8 @@
-<nav class="flex items-center md:justify-between">
-  <a href="/" class="flex items-center">
-    <img
-      src="/images/logo.webp"
-      alt="Logo"
-      loading="lazy"
-      class="w-8 md:mr-2"
-    />
-    <h1
-      class="invisible text-lg font-extrabold leading-normal md:text-3xl md:visible"
-    >
-      Karim Daghari
-    </h1>
-  </a>
+<nav class="flex items-center justify-between">
+  <a href="/"> Karim Daghari </a>
   <ul class="flex space-x-4 text-lg font-medium leading-normal md:text-xl">
-    {%- assign links = "blog,notes,projects" | split: ',' | sort -%} {%- for
-    link in links -%}
     <li>
-      <a href="/{{ link }}" class="hover:underline hover:font-bold">
-        {{ link | capitalize }}
-      </a>
+      <a href="/blog" class="hover:underline hover:font-bold"> Blog </a>
     </li>
-    {%- endfor -%}
   </ul>
 </nav>

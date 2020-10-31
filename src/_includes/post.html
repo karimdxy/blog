@@ -7,7 +7,7 @@ eleventyComputed:
   permalink: "{{ page.filePathStem }}/index.html"
 ---
 
-<article class="prose prose-lg max-w-none md:prose-xl">
-  <h1>{{ title }}</h1>
+<article class="prose prose-lg md:prose-xl">
+  <h1 class="text-center">{{ title }}</h1>
   {{ content | safe }}
 </article>
