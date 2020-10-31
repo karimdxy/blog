@@ -4,11 +4,26 @@ title: Karim Daghari
 ogtype: website
 ---
 
-<div class="text-xl">
-  <p class="font-medium leading-normal">Hello, my name is Karim.</p>
-  <p class="text-justify">
-    I'm a software developer, a student and a maker. Above anything, learning
-    and introspecting are what I enjoy the most. I'm passionate about lots of
-    subjects, ranging from math to philosophy and history.
-  </p>
+<div class="space-y-16">
+  <div class="space-y-1">
+    <p class="text-2xl font-medium leading-normal">Hello, my name is Karim.</p>
+    <p class="text-lg text-justify">
+      I'm a software developer, a student and a maker. Above anything, learning
+      and introspecting are what I enjoy the most. I'm passionate about lots of
+      subjects, ranging from math to philosophy and history.
+    </p>
+  </div>
+
+  <div class="space-y-1">
+    <p class="text-2xl font-medium leading-normal">Featured posts</p>
+    <ul class="space-y-1">
+      {% for post in collections.featured %}
+      <li>
+        <a href="{{ post.url }}" class="text-lg font-medium">
+          {{ post.data.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>

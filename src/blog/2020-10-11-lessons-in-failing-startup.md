@@ -2,6 +2,7 @@
 title: Lessons I learned from failing a startup
 tags: ["startup"]
 excerpt: I've been thinking long and hard about this one.
+featured: true
 ---
 
 _My use of the term **startup** is pretty loose here. I mean by it: a product that could become a business._
