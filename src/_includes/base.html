@@ -24,10 +24,14 @@
         <a href="/" class="text-xl font-bold">Karim Daghari </a>
       <ul class="flex space-x-4 text-xl font-medium leading-normal">
         <li>
-          <a href="/" class="pb-2 text-gray-400 border-b-2 border-transparent hover:text-gray-100 hover:border-blue-500"> About </a>
+          <a href="/" class="pb-2  border-b-2 border-transparent hover:text-gray-100 hover:border-blue-500 {% if page.url == "/" %}border-blue-500 text-white{% else %}text-gray-400{% endif %}">
+            About
+          </a>
         </li>
         <li>
-          <a href="/blog" class="pb-2 text-gray-400 border-b-2 border-transparent hover:text-gray-100 hover:border-blue-500"> Blog </a>
+          <a href="/blog" class="pb-2  border-b-2 border-transparent hover:text-gray-100 hover:border-blue-500 {% if page.url == "/blog/" %}border-blue-500 text-white{% else %}text-gray-400{% endif %}">
+            Blog
+          </a>
         </li>
       </ul>
     </nav>
