@@ -7,8 +7,8 @@ ogtype: website
 <ul class="space-y-10">
   {%- for post in collections.posts -%}
   <li>
-    <p class="font-semibold">{{ post.date | prettyDate }}</p>
-    <a href="{{ post.url }}" class="text-3xl font-semibold">
+    <p class="font-semibold text-gray-500">{{ post.date | prettyDate }}</p>
+    <a href="{{ post.url }}" class="text-3xl font-semibold hover:text-blue-500">
       {{ post.data.title }}
     </a>
     <p class="text-2xl">{{ s.data.excerpt }}</p>

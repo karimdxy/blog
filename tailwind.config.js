@@ -4,43 +4,46 @@ module.exports = {
     content: ["./src/**/*.html", "./src/**/*.liquid"]
   },
   theme: {
-    typography: {
+    typography: theme => ({
       default: {
         css: {
-          color: "#fff",
+          color: theme("colors.white"),
           a: {
-            color: "#fff"
+            color: theme("colors.white"),
+            "&:hover": {
+              color: theme("colors.blue.500")
+            }
           },
           h1: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           h2: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           h3: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           h4: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           h5: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           h6: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           strong: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           em: {
-            color: "#fff"
+            color: theme("colors.white")
           },
           blockquote: {
-            color: "#fff"
+            color: theme("colors.white")
           }
         }
       }
-    },
+    }),
     extend: {}
   },
   variants: {},

@@ -5,7 +5,7 @@ ogtype: website
 ---
 
 <div class="space-y-16">
-  <div class="space-y-1">
+  <div>
     <p class="text-2xl font-medium leading-normal">Hello, my name is Karim.</p>
     <p class="text-lg text-justify">
       I'm a software developer, a student and a maker. Above anything, learning
@@ -14,12 +14,15 @@ ogtype: website
     </p>
   </div>
 
-  <div class="space-y-1">
-    <p class="text-2xl font-medium leading-normal">Featured posts</p>
+  <div class="space-y-4">
+    <p class="text-2xl font-bold leading-normal">Featured Posts</p>
     <ul class="space-y-1">
       {% for post in collections.featured %}
       <li>
-        <a href="{{ post.url }}" class="text-lg font-medium">
+        <a
+          href="{{ post.url }}"
+          class="text-lg font-medium underline hover:text-blue-500"
+        >
           {{ post.data.title }}
         </a>
       </li>
