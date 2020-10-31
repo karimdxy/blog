@@ -22,7 +22,7 @@ module.exports = function (config) {
      */
     const options = {
       year: "numeric",
-      month: "long",
+      month: "short",
       day: "numeric"
     };
     return data.toLocaleDateString("en-US", options);
