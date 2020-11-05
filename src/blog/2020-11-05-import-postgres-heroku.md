@@ -9,7 +9,7 @@ This particular issue has been such a PITA that I'm dedicating a full blog post 
 
 ## SHOW ME THE CODE
 
-![Show me what you got, Rick & Morty](https://tenor.com/70Nj.gif)
+![Show me what you got, Rick & Morty](https://media.giphy.com/media/26DOs997h6fgsCthu/giphy.gif)
 
 1. Export your local DB <br />
 
