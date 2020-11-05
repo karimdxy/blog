@@ -40,6 +40,9 @@ module.exports = {
           },
           blockquote: {
             color: theme("colors.white")
+          },
+          code: {
+            color: theme("colors.white")
           }
         }
       }

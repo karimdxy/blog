@@ -13,10 +13,6 @@ figure > figcaption {
   @apply text-center;
 }
 
-.prose code {
-  @apply text-white;
-}
-
 @tailwind components;
 
 @tailwind utilities;

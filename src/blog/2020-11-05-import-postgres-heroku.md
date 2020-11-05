@@ -12,11 +12,22 @@ This particular issue has been such a PITA that I'm dedicating a full blog post 
 ![Show me what you got, Rick & Morty](https://tenor.com/70Nj.gif)
 
 1. Export your local DB <br />
-   `pg_dump -x -O -U [DB_USERNAME] [DB_NAME] > [DUMP_NAME].sql`
+
+   ```bash
+   pg_dump -x -O -U [DB_USERNAME] [DB_NAME] > [DUMP_NAME].sql
+   ```
+
 2. Get the heroku DB name <br />
-   `heroku pg:info -a [APP_NAME]`
+
+   ```bash
+     heroku pg:info -a [APP_NAME]
+   ```
+
 3. Import it <br />
-   `heroku pg:psql -a [APP_NAME] [HEROKU_DB_NAME] < [DUMP_NAME].sql`
+
+   ```bash
+   heroku pg:psql -a [APP_NAME] [HEROKU_DB_NAME] < [DUMP_NAME].sql
+   ```
 
 that's it. It's that simple.
 
