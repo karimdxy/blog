@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@gerhobbelt/markdown-it-sup": "^1.0.1-4",
-    "@tailwindcss/typography": "^0.2.0",
     "autoprefixer": "^9.8.6",
     "eleventy-plugin-seo": "^0.5.1",
     "markdown": "^0.5.0",
