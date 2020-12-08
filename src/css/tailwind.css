@@ -20,6 +20,10 @@ article {
   @apply space-y-4;
 }
 
+article > p {
+  @apply text-lg;
+}
+
 h1,
 h2,
 h3,
@@ -58,7 +62,15 @@ article > blockquote {
 }
 
 article > ol + ul {
-  @apply space-y-2;
+  @apply space-y-2 list-inside;
+}
+
+article > ol {
+  @apply list-decimal;
+}
+
+article > ul {
+  @apply list-disc;
 }
 
 article > p > a {
