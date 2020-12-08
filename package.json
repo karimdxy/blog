@@ -4,8 +4,11 @@
   "description": "My blog",
   "scripts": {
     "clean": "rm -rf public src/css/styles.css",
-    "dev": "npm run clean && postcss src/css/tailwind.css > src/css/styles.css && eleventy --serve",
-    "build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
+    "build:css": "npx tailwindcss-cli@latest build ./src/css/tailwind.css -o ./src/css/styles.css",
+    "predev": "npm run clean && npm run build:css",
+    "dev": "eleventy --serve",
+    "prebuild": "npm run clean && NODE_ENV=production npm run build:css",
+    "build": "eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
@@ -14,8 +17,11 @@
   "dependencies": {
     "@gerhobbelt/markdown-it-sup": "^1.0.1-4",
     "@tailwindcss/typography": "^0.2.0",
+    "autoprefixer": "^9.8.6",
     "eleventy-plugin-seo": "^0.5.1",
     "markdown": "^0.5.0",
-    "markdown-it-footnote": "^3.0.2"
+    "markdown-it-footnote": "^3.0.2",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   }
 }

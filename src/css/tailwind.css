@@ -1,8 +1,7 @@
 @tailwind base;
 
 body {
-  background-color: #181818;
-  color: whitesmoke;
+  @apply text-black bg-white dark:bg-gray-900 dark:text-white;
 }
 
 figure > img {
